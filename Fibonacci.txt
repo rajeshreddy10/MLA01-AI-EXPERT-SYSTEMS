@@ -1,0 +1,12 @@
+# 40. Fibonacci
+
+```prolog
+fib(0,0).
+fib(1,1).
+fib(N,F):N1 is N1,N2 is N2,fib(N1,A),fib(N2,B),F is A+B.
+```
+
+Query:
+
+```prolog
+? fib(7, F).

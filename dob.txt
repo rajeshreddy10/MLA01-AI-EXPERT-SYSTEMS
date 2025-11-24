@@ -1,0 +1,14 @@
+dob(john,1990).
+dob(mary,1985).
+dob(paul,2000).
+dob(lisa,1995).
+dob(amit,1980).
+
+older(X,Y):dob(X,A),dob(Y,B),A<B.
+```
+
+Queries:
+
+```prolog
+? dob(john, D).
+? older(mary, paul).

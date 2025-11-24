@@ -1,0 +1,11 @@
+```prolog
+male(john).
+child(mike,john).
+parent(X):child(_,X).
+```
+
+Query:
+
+```prolog
+? parent(john).
+```

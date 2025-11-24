@@ -1,0 +1,12 @@
+likes(ram,mango).
+girl(seema).
+likes(bill,cindy).
+color(rose,red).
+owns(john,gold).
+```
+
+Queries:
+
+```prolog
+? likes(ram, X).
+? color(rose, C).

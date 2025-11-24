@@ -1,0 +1,10 @@
+```prolog
+symptom(fever,flu).
+symptom(headache,malaria).
+diagnose(S,D):symptom(S,D).
+```
+
+Query:
+
+```prolog
+? diagnose(fever, D).

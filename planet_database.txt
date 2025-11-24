@@ -1,0 +1,13 @@
+```prolog
+planet(mercury,1,0.055).
+planet(venus,2,0.82).
+planet(earth,3,1).
+planet(jupiter,5,318).
+
+distance(P1,P2,D):planet(P1,A,_),planet(P2,B,_),D is abs(AB).
+```
+
+Query:
+
+```prolog
+? distance(venus, jupiter, D).

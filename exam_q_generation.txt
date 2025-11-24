@@ -1,0 +1,11 @@
+```prolog
+teacher(john,math).
+teacher(mary,science).
+q(T,S):teacher(T,S),write(_____ teaches ),write(S).
+```
+
+Query:
+
+```prolog
+? q(john,math).
+```

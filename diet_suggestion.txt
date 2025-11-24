@@ -1,0 +1,9 @@
+diet(diabetes,low_sugar).
+diet(hypertension,low_salt).
+diet(obesity,low_fat).
+```
+
+Query:
+
+```prolog
+? diet(diabetes, D).

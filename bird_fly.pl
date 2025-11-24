@@ -18,6 +18,6 @@ bird_can_fly(Bird) :-
     write(Bird), write(' cannot fly.'), nl.
 
 % Example queries:
-% ?- bird_can_fly(sparrow).
-% ?- bird_can_fly(penguin).
+ ?- bird_can_fly(sparrow).
+?- bird_can_fly(penguin).
 % ?- bird_can_fly(ostrich).

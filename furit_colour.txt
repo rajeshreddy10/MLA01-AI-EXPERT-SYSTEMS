@@ -1,0 +1,15 @@
+```prolog
+color(apple,red).
+color(banana,yellow).
+color(grape,green).
+color(orange,orange).
+color(plum,purple).
+color(cherry,red).
+color(pineapple,brown).
+color(kiwi,green).
+```
+
+Query:
+
+```prolog
+? color(Fruit, red).
